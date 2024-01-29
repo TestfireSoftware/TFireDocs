@@ -1,0 +1,62 @@
+html.theme--documenter-dark {
+    background-color: rgb(34, 41, 50); /* Updated background color */
+    /* ... other properties ... */
+}
+
+html.theme--documenter-dark a {
+    color: rgb(254, 67, 101); /* Updated link color to the reddish color */
+    /* ... other properties ... */
+}
+
+/* 255, 165, 0 */
+html.theme--documenter-dark a:hover {
+    color: rgb(255, 120, 140); /* Lighter shade for hover effect, assuming you want it slightly lighter than the link color */
+    /* ... other properties ... */
+}
+
+html.theme--documenter-dark code {
+    background-color: rgba(255, 255, 255, 0.05); /* Assuming the same background for code blocks, adjust if needed */
+    color: #ececec; /* Keeping existing text color for code blocks */
+    /* ... other properties ... */
+}
+
+html.theme--documenter-dark pre {
+    background-color: rgb(14, 21, 30); /* Dark background for preformatted text blocks */
+    color: #fff; /* Keeping existing text color */
+    /* ... other properties ... */
+}
+
+html.theme--documenter-dark code.language-julia-repl>span.hljs-meta { /* REPL prompt code blocks */
+    color: rgb(255, 165, 0);
+}
+html.theme--documenter-dark .hljs-string, html.theme--documenter-dark .hljs-symbol, html.theme--documenter-dark .hljs-bullet, html.theme--documenter-dark .hljs-addition {
+    color: rgb(254, 67, 101); /* Strings in code blocks */
+}
+
+html.theme--documenter-dark .content a code { /* For function blocks */
+    color: rgb(255, 165, 0);
+}
+
+html.theme--documenter-dark #documenter .docs-sidebar {
+    background-color: rgb(34, 41, 50);
+}
+
+html.theme--documenter-dark #documenter .docs-sidebar .docs-package-name {
+    font-size: 3rem;
+}
+
+
+html.theme--documenter-dark .admonition.is-info>.admonition-header {
+    background-color: rgb(254, 67, 101);
+    color: #fff;
+}
+
+
+html.theme--documenter-dark .admonition.is-info {
+    background-color: rgb(34, 41, 50);
+    border-color: rgb(254, 67, 101);
+}
+
+html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu .tocitem, html.theme--documenter-dark #documenter .docs-sidebar ul.docs-menu .tocitem:hover {
+    background: rgb(34, 41, 50);
+}
